@@ -1,6 +1,6 @@
 # E-learning-Web-Application
 
-This is a full-stack e-learning web application. The platform enables online course management, student enrollments, instructor administration, statistics tracking, and interactive features.
+This is a full-stack e-learning web application. The platform enables online course management, student enrollments, instructor administration, statistics tracking, and interactive features such as geolocation support and AI-powered assistance.
 
 Frontend: React.js, HTML, CSS
 
