@@ -1,0 +1,151 @@
+.courses-container {
+  padding: 120px 40px 40px;
+  background-color: #ffffff;
+  min-height: 100vh;
+  width: 100vw;
+  box-sizing: border-box;
+}
+
+h2 {
+  color: #222;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 40px;
+}
+
+.filters label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #444;
+}
+
+.filters select,
+.filters input {
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 15px;
+  width: 160px;
+}
+
+.courses-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.course-card {
+  background: #ffffff;
+  color: #333;
+  border: 1px solid #e0e0e0;
+  border-left: 5px solid #0c0c0c;
+  border-radius: 10px;
+  padding: 20px 25px;
+  width: 320px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.04);
+  transition: box-shadow 0.2s ease;
+}
+
+.course-card:hover {
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.course-card h3 {
+  color: #060708;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.course-card p {
+  margin: 6px 0;
+  font-size: 15px;
+  color: #444;
+}
+
+.course-actions {
+  margin-top: 12px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.edit-btn,
+.delete-btn {
+  padding: 6px 12px;
+  font-size: 14px;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.edit-btn {
+  background-color: #232a32;
+  color: white;
+}
+
+.delete-btn {
+  background-color: #160f10;
+  color: white;
+}
+
+.edit-btn:hover {
+  background-color: #0056b3;
+}
+
+.delete-btn:hover {
+  background-color: #c82333;
+}
+
+.enroll-btn {
+  background-color: #020202;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  margin-top: 10px;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.enroll-btn:hover {
+  background-color: #302f2f;
+}
+
+.enroll-btn:disabled {
+  background-color: #bbb;
+  cursor: not-allowed;
+}
+.details-btn {
+  background-color: transparent;
+  color: #080808;
+  border: 1px solid #0a0a0a;
+  padding: 6px 12px;
+  margin-top: 10px;
+  border-radius: 6px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.2s ease;
+  width: 100%;
+}
+
+.details-btn:hover {
+  background-color: #040404;
+  color: white;
+}
+.sold-out {
+  color: #c82333;
+  font-weight: bold;
+}

@@ -1,0 +1,30 @@
+.stats-container {
+  padding: 120px 20px 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to bottom right, #f0f4ff, #ffffff);
+  min-height: 100vh;
+  width: 100vw;
+}
+
+.stats-card {
+  background-color: #fff;
+  padding: 30px 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  min-height: 80vh;
+  width: 95.5vw;
+  text-align: center;
+}
+
+.stats-card h2 {
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.chart-wrapper {
+  margin-top: 20px;
+}

@@ -1,0 +1,88 @@
+.add-course-container {
+  width: 100vw;
+  height: 100vh;
+  background: #111;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.add-course-form {
+  background: #222;
+  padding: 20px;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 420px;
+  height: auto;
+  max-height: 90vh;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  box-sizing: border-box;
+}
+
+.add-course-form label {
+  font-size: 13px;
+  margin-bottom: 4px;
+  margin-top: 10px;
+}
+
+.add-course-form input,
+.add-course-form textarea {
+  margin-bottom: 10px;
+  padding: 8px;
+  font-size: 14px;
+  border: none;
+  border-radius: 6px;
+  background-color: #ddd;
+  color: black;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 60px;
+}
+
+.button-group {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.cancel-btn,
+.save-btn {
+  padding: 8px 18px;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.cancel-btn {
+  background-color: #555;
+  color: white;
+}
+
+.save-btn {
+  background-color: #007bff;
+  color: white;
+}
+
+.success-msg,
+.error-msg {
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+
+.success-msg {
+  color: #28a745;
+}
+
+.error-msg {
+  color: #dc3545;
+}

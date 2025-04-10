@@ -1,0 +1,68 @@
+.dashboard-container {
+  padding: 100px 40px 40px;
+  background-color: #ffffff;
+  min-height: 100vh;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.dashboard-container h2 {
+  font-size: 28px;
+  margin-bottom: 30px;
+  color: #222;
+}
+
+.dashboard-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.dashboard-card {
+  background-color: #f9f9f9;
+  padding: 25px;
+  border-radius: 12px;
+  width: 300px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+  transition: 0.3s ease;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.dashboard-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08);
+}
+
+.dashboard-card h3 {
+  color: #007bff;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.dashboard-card p {
+  font-size: 14.5px;
+  color: #444;
+  margin: 6px 0;
+}
+
+.unenroll-btn {
+  margin-top: 15px;
+  padding: 8px 14px;
+  background-color: #0d0d0d;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  align-self: flex-start;
+}
+
+.unenroll-btn:hover {
+  background-color: #2f2e2e;
+}

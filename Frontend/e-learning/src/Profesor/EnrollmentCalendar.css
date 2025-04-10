@@ -1,0 +1,116 @@
+.calendar-container {
+  padding: 120px 40px 40px;
+  background-color: #fff;
+  min-height: 100vh;
+  width: 100vw;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.calendar-content {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 60px;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.react-calendar {
+  border: 1px solid #0f0f0f;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.students-list {
+  max-width: 500px;
+  text-align: left;
+}
+
+.students-list h3 {
+  font-size: 20px;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.students-list ul {
+  padding-left: 20px;
+  list-style: disc;
+}
+
+.students-list li {
+  margin-bottom: 6px;
+  font-size: 16px;
+  color: #444;
+}
+
+.marked-day {
+  background-color: #dc3545 !important;
+  color: white !important;
+  border-radius: 50%;
+}
+
+.react-calendar__tile--active.marked-day,
+.react-calendar__tile--hover.marked-day {
+  background-color: #28a745 !important;
+}
+
+.react-calendar__tile {
+  color: #222 !important;
+  font-weight: 500;
+  transition: 0.2s ease;
+}
+
+.react-calendar__tile--active {
+  background-color: #007bff !important;
+  color: white !important;
+  border-radius: 50%;
+}
+
+.react-calendar__tile:hover {
+  background-color: #f0f0f0;
+  border-radius: 50%;
+}
+
+.react-calendar__month-view__weekdays abbr {
+  text-decoration: none;
+  color: #666;
+  font-weight: bold;
+}
+
+.react-calendar__navigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.react-calendar__navigation button {
+  background-color: transparent;
+  border: none;
+  color: #222;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.react-calendar__navigation button:disabled {
+  color: #ccc;
+  cursor: default;
+}
+
+.react-calendar__navigation__label {
+  font-size: 16px;
+  font-weight: 600;
+  color: #222;
+}
+
+.react-calendar__navigation__label span {
+  color: #222;
+}
